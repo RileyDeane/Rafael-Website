@@ -1,5 +1,7 @@
 /* line-height: ; instead of using padding or margin */
-
+nav {
+    text-align: center;
+}
 .head-name {
     background-color: #141214;
     text-align: left;
@@ -27,6 +29,7 @@ div.about-me {
     width: 650px;
     height: 100px;
     text-align: center;
+    position: relative;
 }
 div.album-cover {
     position: relative;
@@ -42,9 +45,7 @@ div.album-cover {
     text-align: center;
 }
 .button-one {
-    position: absolute;
-    right: 350px;
-    top: 60px;
+    position: relative;
     background-color: darkgray;
     border: none;
     color: white;
@@ -62,9 +63,7 @@ div.album-cover {
 
 
 .button-two {
-    position: absolute;
-    right: 225px;
-    top: 60px;
+    position: relative;
     background-color: darkgray;
     border: none;
     color: white;
@@ -82,9 +81,7 @@ div.album-cover {
 
 
 .button-three {
-    position: absolute;
-    right: 100px;
-    top: 60px;
+    position: relative;
     background-color: darkgray;
     border: none;
     color: white;
@@ -104,7 +101,6 @@ div.album-cover {
 /* Music.html styling */
 .music {
     text-align: center;
-   
 }
 .albums {
     text-align: center;
@@ -121,16 +117,12 @@ div.album-cover {
 
 .services {
     width: 5%;
-    bottom: 0px;
 }
 
 /* Footer */
 .contact-me {
     text-align: center;
     position: relative;
-    padding-bottom: 10%;
-    margin: auto;
-    margin-top: 150px;
     background-color: #141214;
     color: lightgray;
 }
