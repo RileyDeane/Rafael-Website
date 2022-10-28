@@ -25,11 +25,10 @@ nav {
     text-align: center;
 }
 div.about-me {
-    margin: auto;
-    width: 650px;
-    height: 100px;
     text-align: center;
     position: relative;
+    padding-left: 10em;
+    padding-right: 10em;
 }
 div.album-cover {
     position: relative;
@@ -117,6 +116,7 @@ div.album-cover {
 
 .services {
     width: 5%;
+    margin: .5em;
 }
 
 /* Footer */
