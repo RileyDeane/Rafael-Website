@@ -1,0 +1,187 @@
+/* line-height: ; instead of using padding or margin */
+
+.head-name {
+    background-color: #141214;
+    text-align: left;
+    font-weight: bold;
+    color: lightgray;
+    line-height: 80px;
+    font-size: 72px;
+    padding-left: .5em;
+}
+.web-head {
+    text-align: left;
+    background-color: #141214;
+    color: lightgray;
+    line-height: 60px;
+}
+.name-link {
+    text-decoration: none;
+    color: lightgray;
+}
+.header {
+    text-align: center;
+}
+div.about-me {
+    margin: auto;
+    width: 650px;
+    height: 100px;
+    text-align: center;
+}
+div.album-cover {
+    position: relative;
+    right: auto;
+}
+.profile-picture {
+    border-radius: 50%;
+    border: 3px solid;
+    width: 20%;
+    margin: 15px;
+}
+#wrapper {
+    text-align: center;
+}
+.button-one {
+    position: absolute;
+    right: 350px;
+    top: 60px;
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button-one:hover {opacity: 1;}
+
+
+.button-two {
+    position: absolute;
+    right: 225px;
+    top: 60px;
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button-two:hover {opacity: 1;}
+
+
+.button-three {
+    position: absolute;
+    right: 100px;
+    top: 60px;
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button-three:hover {opacity: 1;}
+
+
+/* Music.html styling */
+.music {
+    text-align: center;
+   
+}
+.albums {
+    text-align: center;
+}
+.album-art {
+    animation: fadeIn 3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.services {
+    width: 5%;
+    bottom: 0px;
+}
+
+/* Footer */
+.contact-me {
+    text-align: center;
+    position: relative;
+    padding-bottom: 10%;
+    margin: auto;
+    margin-top: 150px;
+    background-color: #141214;
+    color: lightgray;
+}
+#email {
+    position: relative;
+    width: 200px;
+    height: auto;
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+#text {
+    position: relative;
+    width: 50%;
+    height: 100px;
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+#submit {
+    position: absolute;
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: -40px;
+}
+#submit:hover {opacity: 1;}
