@@ -1,3 +1,3 @@
 # Rafael-Website
 
-This is my first website that I created for a friend of mine.
+This is my first website that I created for a client who wanted to showcase their music.
